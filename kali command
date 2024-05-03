@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+echo "this is our first bash script"
+echo "print this second line to the terminal"
