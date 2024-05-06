@@ -4,8 +4,10 @@
 #!/bin/bash
 
 
-username=$(whoami)
+#username=$(whoami)
+username="rohan akinson"
 current_date=$(date +%d)
+echo $current_date
 
 if [ ${#username} -gt 3 ]; then
     if [ $((current_date % 1)) -eq 0 ]; then
